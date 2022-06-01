@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .white-heading {
+    @apply font-mono font-bold uppercase text-2xl tracking-[0.3rem];
+  }
+  .black-heading {
+    @apply font-popin font-bold uppercase tracking-[0.3rem] text-gray-700;
+  }
+  .contact-list {
+    @apply flex items-center gap-2 py-2;
+  }
+  .contact-para {
+    @apply font-popin text-gray-300;
+  }
+  .skill-list {
+    @apply uppercase font-mono text-xl py-1 ml-5;
+  }
+  .bar {
+    @apply w-[150px] bg-gray-600 text-right;
+  }
+  .skills {
+    @apply pt-[10px] pb-[10px] text-white;
+  }
+  .team {
+    @apply w-[90%] bg-white;
+  }
+  .loyal {
+    @apply w-[93%] bg-white;
+  }
+  .integ {
+    @apply w-[95%] bg-white;
+  }
+  .company-name {
+    @apply font-mono font-bold uppercase text-gray-700;
+  }
+  .role {
+    @apply uppercase font-popin font-bold text-xl text-gray-700;
+  }
+}
